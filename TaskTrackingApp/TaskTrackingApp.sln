@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackingApp", "TaskTrackingApp.csproj", "{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50934187-0B0B-4B19-823D-A70617ADA8C8} = {50934187-0B0B-4B19-823D-A70617ADA8C8}
+		{5B40F933-F943-400D-888B-39F10D6F1BA4} = {5B40F933-F943-400D-888B-39F10D6F1BA4}
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C} = {5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}
+		{FD431028-728D-4433-8D6D-A691EB5A4D0D} = {FD431028-728D-4433-8D6D-A691EB5A4D0D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackingApp.BLL", "..\TaskTrackingApp.BLL\TaskTrackingApp.BLL.csproj", "{FD431028-728D-4433-8D6D-A691EB5A4D0D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{50934187-0B0B-4B19-823D-A70617ADA8C8} = {50934187-0B0B-4B19-823D-A70617ADA8C8}
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C} = {5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackingApp.Core", "..\TaskTrackingApp.Core\TaskTrackingApp.Core.csproj", "{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackingApp.DAL", "..\TaskTrackingApp.DAL\TaskTrackingApp.DAL.csproj", "{50934187-0B0B-4B19-823D-A70617ADA8C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C} = {5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTrackingApp.UI", "..\TaskTrackingApp.UI\TaskTrackingApp.UI.csproj", "{5B40F933-F943-400D-888B-39F10D6F1BA4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C} = {5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}
+		{FD431028-728D-4433-8D6D-A691EB5A4D0D} = {FD431028-728D-4433-8D6D-A691EB5A4D0D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD431028-728D-4433-8D6D-A691EB5A4D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD431028-728D-4433-8D6D-A691EB5A4D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD431028-728D-4433-8D6D-A691EB5A4D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD431028-728D-4433-8D6D-A691EB5A4D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50934187-0B0B-4B19-823D-A70617ADA8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50934187-0B0B-4B19-823D-A70617ADA8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50934187-0B0B-4B19-823D-A70617ADA8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50934187-0B0B-4B19-823D-A70617ADA8C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B40F933-F943-400D-888B-39F10D6F1BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B40F933-F943-400D-888B-39F10D6F1BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B40F933-F943-400D-888B-39F10D6F1BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B40F933-F943-400D-888B-39F10D6F1BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A851DC5C-C3FD-4230-AD3A-7C6961D5B6BA}
+	EndGlobalSection
+EndGlobal
