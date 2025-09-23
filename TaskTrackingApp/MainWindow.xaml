@@ -19,7 +19,7 @@
         <Menu DockPanel.Dock="Top" Grid.Row="0">
             <MenuItem Header="_Администрирование">
                 <MenuItem Header="_Добавить">
-                    <MenuItem Header="_Руководителя"/>
+                    <MenuItem Header="_Руководителя" Name="addManager" Click="AddManager_Click"/>
                     <MenuItem Header="_Сотрудника"/>
                 </MenuItem>
                 <MenuItem Header="_Изменить">

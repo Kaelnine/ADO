@@ -33,3 +33,4 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.BLL\bin\Debu
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.BLL\bin\Debug\net9.0-windows\TaskTrackingApp.DAL.dll
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.BLL\bin\Debug\net9.0-windows\TaskTrackingApp.Core.pdb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.BLL\bin\Debug\net9.0-windows\TaskTrackingApp.DAL.pdb
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.BLL\obj\Debug\net9.0-windows\TaskTrackingApp.BLL.sourcelink.json

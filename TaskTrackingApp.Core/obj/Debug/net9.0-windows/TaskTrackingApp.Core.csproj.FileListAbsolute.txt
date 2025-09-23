@@ -23,3 +23,4 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.Core\obj\Deb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.Core\obj\Debug\net9.0-windows\TaskTrackingApp.Core.pdb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.Core\obj\Debug\net9.0-windows\TaskTrackingApp.Core.genruntimeconfig.cache
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.Core\obj\Debug\net9.0-windows\ref\TaskTrackingApp.Core.dll
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.Core\obj\Debug\net9.0-windows\TaskTrackingApp.Core.sourcelink.json

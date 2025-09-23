@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using TaskTrackingApp.UI.Windows;
 
 namespace TaskTrackingApp
 {
@@ -19,6 +20,12 @@ namespace TaskTrackingApp
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void AddManager_Click(object sender, RoutedEventArgs e)
+        {
+            AddManager addManager = new AddManager();
+            addManager.ShowDialog();
         }
     }
 }

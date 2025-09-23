@@ -43,3 +43,4 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\bin\Debug\ne
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\bin\Debug\net9.0-windows\TaskTrackingApp.Core.pdb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\bin\Debug\net9.0-windows\TaskTrackingApp.DAL.pdb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\bin\Debug\net9.0-windows\TaskTrackingApp.UI.pdb
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\obj\Debug\net9.0-windows\TaskTrackingApp.sourcelink.json

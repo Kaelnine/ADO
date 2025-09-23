@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "TaskTrackingApp.DAL/1.0.0": {
         "dependencies": {
-          "Npgsql": "9.0.3"
+          "Npgsql": "9.0.3",
+          "TaskTrackingApp.Core": "1.0.0"
         },
         "runtime": {
           "TaskTrackingApp.DAL.dll": {}
@@ -43,6 +44,17 @@
             "fileVersion": "9.0.3.0"
           }
         }
+      },
+      "TaskTrackingApp.Core/1.0.0": {
+        "dependencies": {
+          "Npgsql": "9.0.3"
+        },
+        "runtime": {
+          "TaskTrackingApp.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -72,6 +84,11 @@
       "sha512": "sha512-tPvY61CxOAWxNsKLEBg+oR646X4Bc8UmyQ/tJszL/7mEmIXQnnBhVJZrZEEUv0Bstu0mEsHZD5At3EO8zQRAYw==",
       "path": "npgsql/9.0.3",
       "hashPath": "npgsql.9.0.3.nupkg.sha512"
+    },
+    "TaskTrackingApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

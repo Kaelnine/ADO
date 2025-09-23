@@ -18,8 +18,13 @@ namespace TaskTrackingApp.DAL
             { 
                 connection.Open();
                 NpgsqlCommand command = new NpgsqlCommand(TaskQuery.AddTask, connection);
-                command.Parameters.Add("");
-
+                command.Parameters.Add(new NpgsqlParameter("@name", task.Name));
+                command.Parameters.Add(new NpgsqlParameter("@description", task.Description));
+                command.Parameters.Add(new NpgsqlParameter("@idManager", task.IdManager));
+                command.Parameters.Add(new NpgsqlParameter("@idStaff", task.IdStaff));
+                command.Parameters.Add(new NpgsqlParameter("@assignmentDate", task.AssignmentDate));
+                command.Parameters.Add(new NpgsqlParameter("@periodExecution", task.PeriodExecution));                
+                int id = (int)command.ExecuteScalar();
                 return id;
             }
         }

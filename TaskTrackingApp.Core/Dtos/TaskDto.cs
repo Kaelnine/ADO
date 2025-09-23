@@ -12,6 +12,7 @@ namespace TaskTrackingApp.Core.Dtos
         public string Name { get; set; }
         public string Description { get; set; }
         public int IdStatus { get; set; }
+        public int IdManager { get; set; }
         public int IdStaff {  get; set; }
         public DateTime AssignmentDate { get; set; }
         public DateTime PeriodExecution {  get; set; }

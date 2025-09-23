@@ -38,3 +38,6 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\bin\Debug
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\bin\Debug\net9.0-windows\TaskTrackingApp.BLL.pdb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\bin\Debug\net9.0-windows\TaskTrackingApp.Core.pdb
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\bin\Debug\net9.0-windows\TaskTrackingApp.DAL.pdb
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AddManager.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AddManager.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\TaskTrackingApp.UI.sourcelink.json
