@@ -14,5 +14,11 @@ namespace TaskTrackingApp.DAL.Queries
             "NameTask", "DescriptionTask", "IdManager", "IdStaff", "AssignmentDateTask", "PeriodExecutionTask")
             VALUES (@name, @description, @idManager, @idStaff, @assignmentDate, @periodExecution);
             """;
+
+        public const string AetAllTasks =
+            """
+            SELECT "IdTasks", "NameTask", "DescriptionTask", "IdStatus", "IdManager", "IdStaff", "AssignmentDateTask", "PeriodExecutionTask", "CompletionDateTask"
+            FROM public."Tasks";
+            """;
     }
 }

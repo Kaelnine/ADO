@@ -10,7 +10,7 @@ using TaskTrackingApp.DAL.Queries;
 
 namespace TaskTrackingApp.DAL
 {
-    class TaskRepository
+    public class TaskRepository
     {
         public int AddTask(TaskDto task)
         {
@@ -26,6 +26,34 @@ namespace TaskTrackingApp.DAL
                 command.Parameters.Add(new NpgsqlParameter("@periodExecution", task.PeriodExecution));                
                 int id = (int)command.ExecuteScalar();
                 return id;
+            }
+        }
+
+        public List<TaskDto> GetAllTasks()
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(TaskQuery.AetAllTasks, connection);
+                NpgsqlDataReader reader = command.ExecuteReader();
+                List<TaskDto> tasks = new List<TaskDto>();
+                while (reader.Read())
+                {
+                    TaskDto task = new TaskDto()
+                    {
+                        Id = reader.GetInt32(0),
+                        Name = reader.GetString(1),
+                        Description = reader.GetString(2),
+                        IdStatus = reader.GetInt32(3),
+                        IdManager = reader.GetInt32(4),
+                        IdStaff = reader.GetInt32(5),
+                        AssignmentDate = reader.GetDateTime(6),
+                        PeriodExecution = reader.GetDateTime(7),
+                        CompletionDate = reader.GetDateTime(8),
+                    };
+                    tasks.Add(task);
+                }
+                return tasks;
             }
         }
     }

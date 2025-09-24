@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskTrackingApp"
         mc:Ignorable="d"
-        Title="Менеджер задач" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="Менеджер задач" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" WindowState="Maximized" Loaded="Window_Loaded">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -34,12 +34,13 @@
             
         </Menu>
         <TextBlock Grid.Row="1" Text="Список задач" FontSize="16" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
-        <DataGrid x:Name="taskDataGrid" Grid.Row="2" Margin="10" AutoGenerateColumns="True" SelectionMode="Single" CanUserAddRows="False">
+        <DataGrid x:Name="taskDataGrid" Grid.Row="2" Margin="10" AutoGenerateColumns="False" SelectionMode="Single" CanUserAddRows="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Номер п/п" Binding="{Binding Id}" Width="Auto"/>
                 <DataGridTextColumn Header="Название задачи" Binding="{Binding Name}" Width="Auto"/>
                 <DataGridTextColumn Header="Описание задачи" Binding="{Binding Description}" Width="Auto"/>
                 <DataGridTextColumn Header="Статус задачи" Binding="{Binding IdStatus}" Width="Auto"/>
+                <DataGridTextColumn Header="Руководитель" Binding="{Binding IdManager}" Width="Auto"/>
                 <DataGridTextColumn Header="Сотрудник" Binding="{Binding IdStaff}" Width="Auto"/>
                 <DataGridTextColumn Header="Дата назначения" Binding="{Binding AssignmentDate}" Width="Auto"/>
                 <DataGridTextColumn Header="Срок выполнения" Binding="{Binding PeriodExecution}" Width="Auto"/>

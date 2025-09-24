@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace TaskTrackingApp.Core
 {
     public class Options
@@ -12,7 +13,7 @@ namespace TaskTrackingApp.Core
         {
             get
             {
-                return "Server = localhost; Port = 5432; User Id = postgres; Password = ; Database = TaskTracking;";
+                return "Host=localhost;Port=5432;Username=Administrator;Password=12345678;Database=TaskTracking;";
             }
         }
     }
