@@ -20,31 +20,31 @@
             <MenuItem Header="_Администрирование">
                 <MenuItem Header="_Добавить">
                     <MenuItem Header="_Руководителя" Name="addManager" Click="AddManager_Click"/>
-                    <MenuItem Header="_Сотрудника"/>
+                    <MenuItem Header="_Сотрудника" Name="addStaff" Click="AddStaff_Click" />
                 </MenuItem>
                 <MenuItem Header="_Изменить">
                     <MenuItem Header="_Руководителя"/>
                     <MenuItem Header="_Сотрудника"/>
                 </MenuItem>
                 <MenuItem Header="_Удалить">
-                    <MenuItem Header="_Руководителя"/>
+                    <MenuItem Header="_Руководителя" Name="deleteManager" Click="DeleteManager_Click"/>
                     <MenuItem Header="_Сотрудника"/>
                 </MenuItem>
             </MenuItem>
             
         </Menu>
         <TextBlock Grid.Row="1" Text="Список задач" FontSize="16" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
-        <DataGrid x:Name="taskDataGrid" Grid.Row="2" Margin="10" AutoGenerateColumns="False" SelectionMode="Single" CanUserAddRows="False">
+        <DataGrid x:Name="taskDataGrid" Grid.Row="2" Margin="10" AutoGenerateColumns="False" SelectionMode="Single" CanUserAddRows="False" HorizontalAlignment="Stretch">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Номер п/п" Binding="{Binding Id}" Width="Auto"/>
-                <DataGridTextColumn Header="Название задачи" Binding="{Binding Name}" Width="Auto"/>
-                <DataGridTextColumn Header="Описание задачи" Binding="{Binding Description}" Width="Auto"/>
-                <DataGridTextColumn Header="Статус задачи" Binding="{Binding IdStatus}" Width="Auto"/>
-                <DataGridTextColumn Header="Руководитель" Binding="{Binding IdManager}" Width="Auto"/>
-                <DataGridTextColumn Header="Сотрудник" Binding="{Binding IdStaff}" Width="Auto"/>
-                <DataGridTextColumn Header="Дата назначения" Binding="{Binding AssignmentDate}" Width="Auto"/>
-                <DataGridTextColumn Header="Срок выполнения" Binding="{Binding PeriodExecution}" Width="Auto"/>
-                <DataGridTextColumn Header="Дата завершения" Binding="{Binding CompletionDate}" Width="Auto"/>
+                <DataGridTextColumn Header="Название задачи" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Описание задачи" Binding="{Binding Description}" Width="*"/>
+                <DataGridTextColumn Header="Статус задачи" Binding="{Binding OrderStatus}" Width="*"/>
+                <DataGridTextColumn Header="Руководитель" Binding="{Binding NameManager}" Width="*"/>
+                <DataGridTextColumn Header="Сотрудник" Binding="{Binding NameStaff}" Width="*"/>
+                <DataGridTextColumn Header="Дата назначения" Binding="{Binding AssignmentDate}" Width="*"/>
+                <DataGridTextColumn Header="Срок выполнения" Binding="{Binding PeriodExecution}" Width="*"/>
+                <DataGridTextColumn Header="Дата завершения" Binding="{Binding CompletionDate}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
         <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using Npgsql;
 using TaskTrackingApp.Core;
 using TaskTrackingApp.Core.Dtos;
@@ -23,7 +24,8 @@ namespace TaskTrackingApp.DAL
                 command.Parameters.Add(new NpgsqlParameter("@idManager", task.IdManager));
                 command.Parameters.Add(new NpgsqlParameter("@idStaff", task.IdStaff));
                 command.Parameters.Add(new NpgsqlParameter("@assignmentDate", task.AssignmentDate));
-                command.Parameters.Add(new NpgsqlParameter("@periodExecution", task.PeriodExecution));                
+                command.Parameters.Add(new NpgsqlParameter("@periodExecution", task.PeriodExecution));  
+                //command.Parameters.Add(new NpgsqlParameter("@completionDate", task.CompletionDate));
                 int id = (int)command.ExecuteScalar();
                 return id;
             }
@@ -34,24 +36,32 @@ namespace TaskTrackingApp.DAL
             using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
             {
                 connection.Open();
-                NpgsqlCommand command = new NpgsqlCommand(TaskQuery.AetAllTasks, connection);
+                NpgsqlCommand command = new NpgsqlCommand(TaskQuery.GetAllTasksForDataGrid, connection);
                 NpgsqlDataReader reader = command.ExecuteReader();
                 List<TaskDto> tasks = new List<TaskDto>();
+                //MessageBox.Show("");
                 while (reader.Read())
                 {
+                    
                     TaskDto task = new TaskDto()
                     {
                         Id = reader.GetInt32(0),
                         Name = reader.GetString(1),
                         Description = reader.GetString(2),
-                        IdStatus = reader.GetInt32(3),
-                        IdManager = reader.GetInt32(4),
-                        IdStaff = reader.GetInt32(5),
+                        OrderStatus = reader.GetString(3),
+                        //IdStatus = reader.GetInt32(3),
+                        NameManager = reader.GetString(4),
+                        //IdManager = reader.GetInt32(4),
+                        NameStaff = reader.GetString(5),
+                        //IdStaff = reader.GetInt32(5),
                         AssignmentDate = reader.GetDateTime(6),
                         PeriodExecution = reader.GetDateTime(7),
                         CompletionDate = reader.GetDateTime(8),
+                        
                     };
+                    
                     tasks.Add(task);
+                    //MessageBox.Show("");
                 }
                 return tasks;
             }

@@ -15,10 +15,19 @@ namespace TaskTrackingApp.DAL.Queries
             VALUES (@name, @description, @idManager, @idStaff, @assignmentDate, @periodExecution);
             """;
 
-        public const string AetAllTasks =
+        public const string GetAllTasks =
             """
             SELECT "IdTasks", "NameTask", "DescriptionTask", "IdStatus", "IdManager", "IdStaff", "AssignmentDateTask", "PeriodExecutionTask", "CompletionDateTask"
             FROM public."Tasks";
+            """;
+
+        public const string GetAllTasksForDataGrid =
+            """
+            SELECT T."IdTasks", T."NameTask", T."DescriptionTask", TS."NameStatus", M."NameManager", S."NameStaff", T."AssignmentDateTask", T."PeriodExecutionTask", T."CompletionDateTask"
+            FROM public."Tasks" AS T
+            JOIN public."TaskStatus" AS TS ON T."OrderStatus"=TS."OrderStatus"
+            JOIN public."Managers" AS M ON T."IdManager"=M."IdManager"
+            JOIN public."Staff" AS S ON T."IdStaff"=S."IdStaff";
             """;
     }
 }

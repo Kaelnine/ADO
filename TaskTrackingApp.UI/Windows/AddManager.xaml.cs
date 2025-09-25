@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TaskTrackingApp.Core.Dtos;
+using TaskTrackingApp.DAL;
 
 namespace TaskTrackingApp.UI.Windows
 {
@@ -26,7 +28,11 @@ namespace TaskTrackingApp.UI.Windows
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-
+            ManagerDto manager = new ManagerDto();
+            manager.Name = nameTextBox.Text;
+            manager.Post = postTextBox.Text;
+            int m = new ManagerRepository().AddManager(manager);
+            this.Close();
         }
     }
 }

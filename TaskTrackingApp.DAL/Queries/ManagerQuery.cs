@@ -12,7 +12,8 @@ namespace TaskTrackingApp.DAL.Queries
             """
             INSERT INTO public."Managers"(
             "NameManager", "PostManager")
-            VALUES (@name, @post);
+            VALUES (@name, @post)
+            RETURNING "IdManager";
             """;
 
         public const string UpdateManager =
@@ -35,6 +36,12 @@ namespace TaskTrackingApp.DAL.Queries
             FROM public."Managers" AS M
             JOIN public."Tasks" AS T ON M."IdManager"=T."IdManager"
             WHERE M."IdManager"=@id;
+            """;
+
+        public const string GetAllManagers =
+            """
+            SELECT "IdManager", "NameManager", "PostManager"
+            FROM public."Managers";
             """;
     }
 }

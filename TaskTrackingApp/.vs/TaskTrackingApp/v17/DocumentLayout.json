@@ -3,54 +3,66 @@
   "WorkspaceRootPath": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}|TaskTrackingApp.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}|TaskTrackingApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\deletemanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\deletemanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\queries\\managerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\dtos\\managerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}|TaskTrackingApp.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}|TaskTrackingApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}|TaskTrackingApp.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2883CAE0-F203-482C-A3AF-F2B4EE0F7099}|TaskTrackingApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\addstaff.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\addstaff.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\addmanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\queries\\managerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\queries\\staffquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\queries\\taskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\addmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\dtos\\managerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\tasktrackingapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\staffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\dtos\\staffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\queries\\staffquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\windows\\addmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50934187-0B0B-4B19-823D-A70617ADA8C8}|..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.dal\\queries\\taskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\tasktrackingapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B40F933-F943-400D-888B-39F10D6F1BA4}|..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F2CB39D-F412-4F94-BD1D-9EBAF1644F1C}|..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj|d:\\_\u0443\u0447\u0435\u0431\u0430\\_\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ado\\tasktrackingapp.core\\tasktrackingapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -84,7 +96,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,73 +107,88 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "DeleteManager.xaml.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADUAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:22:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddStaff.xaml",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml",
+              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T10:42:55.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAIAwwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:50:52.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ManagerRepository.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\ManagerRepository.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\ManagerRepository.cs",
               "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\ManagerRepository.cs",
               "RelativeToolTip": "..\\TaskTrackingApp.DAL\\ManagerRepository.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T08:37:54.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddManager.xaml.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
-              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAApwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T12:50:04.921Z",
+              "DocumentIndex": 2,
+              "Title": "DeleteManager.xaml",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml",
+              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\DeleteManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-25T11:10:35.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "ManagerQuery.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\ManagerQuery.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\Queries\\ManagerQuery.cs",
               "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\ManagerQuery.cs",
               "RelativeToolTip": "..\\TaskTrackingApp.DAL\\Queries\\ManagerQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T11:24:43.147Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StaffQuery.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
-              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T11:24:03.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\TaskRepository.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\TaskRepository.cs",
-              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\TaskRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T10:49:24.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -173,33 +200,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "ManagerDto.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:58:46.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddStaff.xaml.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\AddStaff.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T10:45:23.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddManager.xaml.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T12:50:04.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StaffRepository.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\StaffRepository.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\StaffRepository.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\StaffRepository.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\StaffRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T11:02:29.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StaffQuery.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\Queries\\StaffQuery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T11:24:03.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StaffDto.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:59:12.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddManager.xaml",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
+              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T12:28:09.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\TaskRepository.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\TaskRepository.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\TaskRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T10:49:24.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\TaskDto.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\Dtos\\TaskDto.cs",
               "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\TaskDto.cs",
               "RelativeToolTip": "..\\TaskTrackingApp.Core\\Dtos\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T07:58:13.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAhwCoAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "TaskQuery.cs",
+              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
+              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
+              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
+              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T07:50:52.042Z",
+              "WhenOpened": "2025-09-23T11:17:06.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "Options.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Options.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\Options.cs",
@@ -212,45 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TaskQuery.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
-              "RelativeToolTip": "..\\TaskTrackingApp.DAL\\Queries\\TaskQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T11:17:06.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddManager.xaml",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
-              "RelativeToolTip": "..\\TaskTrackingApp.UI\\Windows\\AddManager.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-23T12:28:09.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManagerDto.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
-              "RelativeToolTip": "..\\TaskTrackingApp.Core\\Dtos\\ManagerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T07:58:46.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "TaskTrackingApp.UI.csproj",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\TaskTrackingApp.UI.csproj",
@@ -262,30 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StaffDto.cs",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
-              "RelativeToolTip": "..\\TaskTrackingApp.Core\\Dtos\\StaffDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T07:59:12.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\MainWindow.xaml",
-              "ToolTip": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\MainWindow.xaml",
-              "RelativeToolTip": "..\\TaskTrackingApp.UI\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-09-23T07:55:47.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.UI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.UI\\MainWindow.xaml.cs",
@@ -297,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "TaskTrackingApp.Core.csproj",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj",
@@ -309,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "TaskTrackingApp.DAL.csproj",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj",
@@ -321,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\MainWindow.xaml",
@@ -332,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.DAL\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.DAL\\MainWindow.xaml.cs",
@@ -344,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\MainWindow.xaml",
@@ -355,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.Core\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.Core\\MainWindow.xaml.cs",
@@ -367,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.BLL\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.BLL\\MainWindow.xaml",
@@ -378,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\_\u0423\u0447\u0435\u0431\u0430\\_\u0414\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0437\u0430\u0434\u0430\u043D\u0438\u044F\\ADO\\TaskTrackingApp.BLL\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\TaskTrackingApp.BLL\\MainWindow.xaml.cs",
@@ -387,10 +456,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T07:53:22.905Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

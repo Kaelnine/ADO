@@ -12,7 +12,8 @@ namespace TaskTrackingApp.DAL.Queries
             """
             INSERT INTO public."Staff"(
             "NameStaff", "PostStaff")
-            VALUES (@name, @post);
+            VALUES (@name, @post)
+            RETURNING "IdStaff";
             """;
 
         public const string UpdateStaff =

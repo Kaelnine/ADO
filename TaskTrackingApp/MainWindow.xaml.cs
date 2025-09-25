@@ -31,6 +31,10 @@ namespace TaskTrackingApp
         {
             AddManager addManager = new AddManager();
             addManager.ShowDialog();
+            //if (addManager.DialogResult == true)
+            //{
+            //    MessageBox.Show("Руководитель успешно добавлен");
+            //}
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -38,10 +42,25 @@ namespace TaskTrackingApp
             //using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
             //{
             //    connection.Open();
+               
+            //    //taskDataGrid.ItemsSource = tasks;
             //}
             List<TaskDto> tasks = new TaskRepository().GetAllTasks();
-            //MessageBox.Show("");
             taskDataGrid.ItemsSource = tasks;
+            //MessageBox.Show("");
+
+        }
+
+        private void AddStaff_Click(object sender, RoutedEventArgs e)
+        {
+            AddStaff addStaff = new AddStaff();
+            addStaff.ShowDialog();
+        }
+
+        private void DeleteManager_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteManager deleteManager = new DeleteManager();
+            deleteManager.ShowDialog();
         }
     }
 }
