@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj": {}
+    "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj": {}
   },
   "projects": {
-    "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj": {
+    "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj",
+        "projectUniqueName": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj",
         "projectName": "TaskTrackingApp.Core",
-        "projectPath": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj",
-        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
-        "outputPath": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.Core\\obj\\",
+        "projectPath": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj",
+        "packagesPath": "C:\\Users\\adamc\\.nuget\\packages\\",
+        "outputPath": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adamc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,20 +79,20 @@
         }
       }
     },
-    "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj": {
+    "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj",
+        "projectUniqueName": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj",
         "projectName": "TaskTrackingApp.DAL",
-        "projectPath": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj",
-        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
-        "outputPath": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.DAL\\obj\\",
+        "projectPath": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.DAL\\TaskTrackingApp.DAL.csproj",
+        "packagesPath": "C:\\Users\\adamc\\.nuget\\packages\\",
+        "outputPath": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adamc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -100,14 +101,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0-windows7.0": {
             "targetAlias": "net9.0-windows",
             "projectReferences": {
-              "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj": {
-                "projectPath": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj"
+              "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj": {
+                "projectPath": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp.Core\\TaskTrackingApp.Core.csproj"
               }
             }
           }

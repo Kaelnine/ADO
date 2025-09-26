@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8yN/GNTDgfw=",
+  "dgSpecHash": "3/6+4d74P60=",
   "success": true,
-  "projectFilePath": "D:\\_Учеба\\_Домашние задания\\ADO\\TaskTrackingApp\\TaskTrackingApp.csproj",
+  "projectFilePath": "D:\\Моё\\Учеба\\_Домашние задания\\ADO\\ADO\\TaskTrackingApp\\TaskTrackingApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Илья\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Илья\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\Илья\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512"
+    "C:\\Users\\adamc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\adamc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\adamc\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512"
   ],
   "logs": []
 }

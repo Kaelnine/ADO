@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\obj\Debug\net9.0-windows\
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp\obj\Debug\net9.0-windows\
 TaskTrackingApp
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp\App.xaml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp\App.xaml
 11407045341
 
 42031728981
-207531671958
+207989840041
 MainWindow.xaml;
 
 False

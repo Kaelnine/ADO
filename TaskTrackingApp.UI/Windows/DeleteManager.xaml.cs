@@ -40,6 +40,7 @@ namespace TaskTrackingApp.UI.Windows
             {
                 nameManager.Text = comboBoxNameManager.Text;
             }
+
         }
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
