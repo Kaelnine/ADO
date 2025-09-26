@@ -24,5 +24,38 @@ namespace TaskTrackingApp.DAL
                 return id;
             }
         }
+
+        public List<StaffDto> GetAllStaff()
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(StaffQuery.GetAllStaff, connection);
+                NpgsqlDataReader reader = command.ExecuteReader();
+                List<StaffDto> staffs = new List<StaffDto>();
+                while (reader.Read())
+                {
+                    StaffDto staff = new StaffDto()
+                    {
+                        Id = reader.GetInt32(0),
+                        Name = reader.GetString(1),
+                        Post = reader.GetString(2)
+                    };
+                    staffs.Add(staff);
+                }
+                return staffs;
+            }
+        }
+
+        public void DeleteStaff(int id)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(StaffQuery.DeleteStaff, connection);
+                command.Parameters.Add(new NpgsqlParameter("id", id));
+                int s = command.ExecuteNonQuery();
+            }
+        }
     }
 }

@@ -45,3 +45,9 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AddStaff.baml
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\DeleteManager.g.cs
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\DeleteManager.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\DeleteStaff.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\DeleteStaff.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AddTask.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AddTask.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\GetAllMergeTasks.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\GetAllMergeTasks.baml

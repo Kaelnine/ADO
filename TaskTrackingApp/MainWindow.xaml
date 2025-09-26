@@ -28,13 +28,13 @@
                 </MenuItem>
                 <MenuItem Header="_Удалить">
                     <MenuItem Header="_Руководителя" Name="deleteManager" Click="DeleteManager_Click"/>
-                    <MenuItem Header="_Сотрудника"/>
+                    <MenuItem Header="_Сотрудника" Name="deleteStaff" Click="DeleteStaff_Click"/>
                 </MenuItem>
             </MenuItem>
             
         </Menu>
         <TextBlock Grid.Row="1" Text="Список задач" FontSize="16" FontWeight="Bold" Margin="10" HorizontalAlignment="Center"/>
-        <DataGrid x:Name="taskDataGrid" Grid.Row="2" Margin="10" AutoGenerateColumns="False" SelectionMode="Single" CanUserAddRows="False" HorizontalAlignment="Stretch">
+        <DataGrid x:Name="taskDataGrid" Grid.Row="2" Margin="10" AutoGenerateColumns="False" SelectionMode="Single" CanUserAddRows="False" HorizontalAlignment="Stretch" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Номер п/п" Binding="{Binding Id}" Width="Auto"/>
                 <DataGridTextColumn Header="Название задачи" Binding="{Binding Name}" Width="*"/>
@@ -42,21 +42,21 @@
                 <DataGridTextColumn Header="Статус задачи" Binding="{Binding OrderStatus}" Width="*"/>
                 <DataGridTextColumn Header="Руководитель" Binding="{Binding NameManager}" Width="*"/>
                 <DataGridTextColumn Header="Сотрудник" Binding="{Binding NameStaff}" Width="*"/>
-                <DataGridTextColumn Header="Дата назначения" Binding="{Binding AssignmentDate}" Width="*"/>
-                <DataGridTextColumn Header="Срок выполнения" Binding="{Binding PeriodExecution}" Width="*"/>
-                <DataGridTextColumn Header="Дата завершения" Binding="{Binding CompletionDate}" Width="*"/>
+                <DataGridTextColumn Header="Дата назначения" Binding="{Binding AssignmentDate, StringFormat='yyyy-MM-dd'}" Width="*"/>
+                <DataGridTextColumn Header="Срок выполнения" Binding="{Binding PeriodExecution, StringFormat='yyyy-MM-dd'}" Width="*"/>
+                <DataGridTextColumn Header="Дата завершения" Binding="{Binding CompletionDate, StringFormat='yyyy-MM-dd'}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
         <StackPanel Grid.Row="3" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-            <Button Content="Добавить задачу" Margin="10" HorizontalAlignment="Center" Width="100" Height="20"/>
-            <Button Content="Изменить задачу" Margin="10" HorizontalAlignment="Center" Width="100" Height="20"/>
-            <Button Content="Удалить задачу" Margin="10" HorizontalAlignment="Center" Width="100" Height="20"/>
-            <Button Content="Обновить список" Margin="10" HorizontalAlignment="Center" Width="100" Height="20"/>            
+            <Button Name="addTaskButton" Content="Добавить задачу" Margin="10" HorizontalAlignment="Center" Width="100" Height="20" Click="AddTaskButton_Click"/>
+            <Button Name="updateTaskButton" Content="Изменить задачу" Margin="10" HorizontalAlignment="Center" Width="100" Height="20" Click="UpdateTaskButton_Click"/>
+            <Button Name="deleteTaskButton" Content="Удалить задачу" Margin="10" HorizontalAlignment="Center" Width="100" Height="20" Click="DeleteTaskButton_Click"/>
+            <Button Name="refreshDataGridButton" Content="Обновить список" Margin="10" HorizontalAlignment="Center" Width="100" Height="20" Click="RefreshDataGridButton_Click"/>            
         </StackPanel>
         <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
             <Button Content="Список задач сотрудника" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
             <Button Content="Список задач руководителя" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
-            <Button Content="Список общих задач" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
+            <Button Name="getAllMegeTasks" Content="Список общих задач" Margin="10" HorizontalAlignment="Center" Width="180" Height="20" Click="GetAllMegeTasks_Click"/>
         </StackPanel>
         <StatusBar Grid.Row="5" Background="#FFD6D3D3">
             <StackPanel Orientation="Horizontal" Margin="10,0" HorizontalAlignment="Center">

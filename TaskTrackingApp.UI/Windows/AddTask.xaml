@@ -1,0 +1,39 @@
+﻿<Window x:Class="TaskTrackingApp.UI.Windows.AddTask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskTrackingApp.UI.Windows"
+        mc:Ignorable="d"
+        Title="Создание новой задачи" Height="400" Width="700" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Создайте новую задачу" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="10" TextDecorations="Underline"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Название задачи: " HorizontalAlignment="Right" Margin="10"/>
+        <TextBox Name="nameTask" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Margin="10" Width="300"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Описание задачи: " HorizontalAlignment="Right" Margin="10" VerticalAlignment="Center"/>
+        <TextBox Name="descriptionTask" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10" Width="300" TextWrapping="Wrap" AcceptsReturn="True" Height="50"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Text="Руководитель: " HorizontalAlignment="Right" Margin="10"/>
+        <ComboBox Name="nameManager" Grid.Row="3" Grid.Column="1" Margin="10" Width="300" HorizontalAlignment="Left" DisplayMemberPath="Name"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Text="Сотрудник: " HorizontalAlignment="Right" Margin="10"/>
+        <ComboBox Name="nameStaff" Grid.Row="4" Grid.Column="1" Margin="10" Width="300" HorizontalAlignment="Left" DisplayMemberPath="Name"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Text="Срок выполнения: " HorizontalAlignment="Right" Margin="10" VerticalAlignment="Center"/>
+        <DatePicker Name="periodExecution" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Width="300" Margin="10" SelectedDate="{Binding SelectedDate, StringFormat=yyyy-MM-dd}"/>
+        <StackPanel Grid.Row="6" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Name="addTaskButton" Content="Создать задачу" Width="100" Height="20" Margin="10" Click="AddTaskButton_Click"/>
+            <Button Name="cancelButton" Content="Отмена" Width="100" Height="20" Margin="10" IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</Window>

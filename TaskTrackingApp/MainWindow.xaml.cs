@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using TaskTrackingApp.Core;
 using TaskTrackingApp.Core.Dtos;
 using TaskTrackingApp.DAL;
@@ -24,7 +25,10 @@ namespace TaskTrackingApp
         public MainWindow()
         {
             InitializeComponent();
-            
+            DispatcherTimer timer = new DispatcherTimer();
+            timer.Tick += new EventHandler(Timer_tick);
+            timer.Interval = new TimeSpan(0, 0, 1);
+            timer.Start();
         }
 
         private void AddManager_Click(object sender, RoutedEventArgs e)
@@ -61,6 +65,56 @@ namespace TaskTrackingApp
         {
             DeleteManager deleteManager = new DeleteManager();
             deleteManager.ShowDialog();
+        }
+
+        private void DeleteStaff_Click(object sender, RoutedEventArgs e)
+        {
+            DeleteStaff deleteStaff = new DeleteStaff();
+            deleteStaff.ShowDialog();
+        }
+
+        private void AddTaskButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddTask addTask = new AddTask();
+            addTask.ShowDialog();
+        }
+
+        private void UpdateTaskButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void DeleteTaskButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void RefreshDataGridButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+            List<TaskDto> tasks = new TaskRepository().GetAllTasks();
+            taskDataGrid.ItemsSource = tasks;
+        }
+
+        private void GetAllMegeTasks_Click(object sender, RoutedEventArgs e)
+        {
+            GetAllMergeTasks getAllMergeTasks = new GetAllMergeTasks();
+            getAllMergeTasks.DataChanged += GetAllMergeTasks_DataChanged;
+            getAllMergeTasks.ShowDialog();
+        }
+
+        private void GetAllMergeTasks_DataChanged(object? sender, GetAllMergeTasks.DataEventArgs e)
+        {
+            //throw new NotImplementedException();
+            List<TaskDto> tasks = e._tasks;
+            taskDataGrid.ItemsSource = tasks;
+            //taskDataGrid.ItemsSource = 
+        }
+
+        private void Timer_tick(object sender, EventArgs e)
+        {
+            timeTextBlock.Text = DateTime.Now.ToString("HH:mm:ss");
+            dateTextBlock.Text = DateTime.Now.ToString("dd-MM-yyyy");
         }
     }
 }

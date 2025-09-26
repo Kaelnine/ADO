@@ -37,5 +37,11 @@ namespace TaskTrackingApp.DAL.Queries
             JOIN public."Tasks" AS T ON S."IdStaff"=T."IdStaff"
             WHERE S."IdStaff"=@id;
             """;
+
+        public const string GetAllStaff =
+            """
+            SELECT "IdStaff", "NameStaff", "PostStaff"
+            FROM public."Staff";
+            """;
     }
 }

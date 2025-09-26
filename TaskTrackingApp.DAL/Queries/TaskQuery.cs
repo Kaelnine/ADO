@@ -12,7 +12,8 @@ namespace TaskTrackingApp.DAL.Queries
             """
             INSERT INTO public."Tasks"(
             "NameTask", "DescriptionTask", "IdManager", "IdStaff", "AssignmentDateTask", "PeriodExecutionTask")
-            VALUES (@name, @description, @idManager, @idStaff, @assignmentDate, @periodExecution);
+            VALUES (@name, @description, @idManager, @idStaff, @assignmentDate, @periodExecution)
+            RETURNING "IdTasks";
             """;
 
         public const string GetAllTasks =
@@ -28,6 +29,16 @@ namespace TaskTrackingApp.DAL.Queries
             JOIN public."TaskStatus" AS TS ON T."OrderStatus"=TS."OrderStatus"
             JOIN public."Managers" AS M ON T."IdManager"=M."IdManager"
             JOIN public."Staff" AS S ON T."IdStaff"=S."IdStaff";
+            """;
+
+        public const string GetAllMergeTasks =
+            """
+            SELECT T."IdTasks", T."NameTask", T."DescriptionTask", TS."NameStatus", M."NameManager", S."NameStaff", T."AssignmentDateTask", T."PeriodExecutionTask", T."CompletionDateTask"
+            FROM public."Tasks" AS T
+            JOIN public."TaskStatus" AS TS ON T."OrderStatus"=TS."OrderStatus"
+            JOIN public."Managers" AS M ON T."IdManager"=M."IdManager"
+            JOIN public."Staff" AS S ON T."IdStaff"=S."IdStaff"
+            WHERE T."IdManager"=@idManager AND T."IdStaff"=@idStaff;
             """;
     }
 }
