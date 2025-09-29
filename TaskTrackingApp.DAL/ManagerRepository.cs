@@ -69,7 +69,36 @@ namespace TaskTrackingApp.DAL
             {
                 connection.Open();
                 NpgsqlCommand command = new NpgsqlCommand(ManagerQuery.DeleteManager, connection);
-                command.Parameters.Add(new NpgsqlParameter("id", id));
+                command.Parameters.Add(new NpgsqlParameter("@id", id));
+                int m = command.ExecuteNonQuery();
+            }
+        }
+
+        public void UpdateManager(ManagerDto manager, string name, string post)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(ManagerQuery.UpdateManager, connection);
+                if (name == "")
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@name", manager.Name));
+                }
+                else
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@name", name));
+                }
+                if (post == "")
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@post", manager.Post));
+                }
+                else
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@post", post));
+                }
+                //command.Parameters.Add(new NpgsqlParameter("@name", manager.Name));
+                //command.Parameters.Add(new NpgsqlParameter("@post", manager.Post));
+                command.Parameters.Add(new NpgsqlParameter("@id", manager.Id));
                 int m = command.ExecuteNonQuery();
             }
         }

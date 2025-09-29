@@ -30,30 +30,28 @@ namespace TaskTrackingApp.UI.Windows
         {
             List<StaffDto> staffs = new StaffRepository().GetAllStaff();
             comboBoxNameStaff.ItemsSource = staffs;
-            //nameManager.Text = comboBoxNameManager.DisplayMemberPath.ToString();
+            
 
         }
 
-        private void ComboBoxNameManager_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (comboBoxNameStaff.SelectedItem != null)
-            {
-                nameStaff.Text = comboBoxNameStaff.Text;
-            }
-        }
+        
 
         private void DeleteButton_Click(object sender, RoutedEventArgs e)
         {
             StaffDto staff = (StaffDto)comboBoxNameStaff.SelectedItem;
             try
             {
-                new StaffRepository().DeleteStaff(staff.Id);
+                if (MessageBox.Show($"Вы действительно хотите удалить сотрудника {staff.Name}?", "Подтверждение удаления", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                {
+                    new StaffRepository().DeleteStaff(staff.Id);
+                }
+                //new StaffRepository().DeleteStaff(staff.Id);
             }
             catch (Npgsql.PostgresException ex) when (ex.SqlState == "23503")
             {
                 MessageBox.Show("Данную запись удалить невозможно так как есть связанные с ней записи.");
             }
-            //new ManagerRepository().DeleteManager(manager.Id);
+            
             this.Close();
         }
     }

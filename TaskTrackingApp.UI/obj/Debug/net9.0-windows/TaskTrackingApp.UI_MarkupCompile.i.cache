@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\
 TaskTrackingApp.UI
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\App.xaml
-72102819358
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\App.xaml
+10-572428724
 
-12-514821021
-206422108348
-MainWindow.xaml;Windows\AddManager.xaml;Windows\AddStaff.xaml;Windows\AddTask.xaml;Windows\DeleteManager.xaml;Windows\DeleteStaff.xaml;Windows\GetAllMergeTasks.xaml;
+15443616776
+2061064482047
+MainWindow.xaml;Windows\AddManager.xaml;Windows\AddStaff.xaml;Windows\AddTask.xaml;Windows\DeleteManager.xaml;Windows\DeleteStaff.xaml;Windows\GetAllMergeTasks.xaml;Windows\UpdateManager.xaml;Windows\UpdateStaff.xaml;Windows\UpdateTask.xaml;
 
-True
+False
 

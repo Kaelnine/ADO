@@ -34,24 +34,16 @@ namespace TaskTrackingApp
         private void AddManager_Click(object sender, RoutedEventArgs e)
         {
             AddManager addManager = new AddManager();
-            addManager.ShowDialog();
-            //if (addManager.DialogResult == true)
-            //{
-            //    MessageBox.Show("Руководитель успешно добавлен");
-            //}
+            addManager.ShowDialog();   
+
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
-            //{
-            //    connection.Open();
-               
-            //    //taskDataGrid.ItemsSource = tasks;
-            //}
+            
             List<TaskDto> tasks = new TaskRepository().GetAllTasks();
             taskDataGrid.ItemsSource = tasks;
-            //MessageBox.Show("");
+            
 
         }
 
@@ -81,12 +73,28 @@ namespace TaskTrackingApp
 
         private void UpdateTaskButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            UpdateTask task = new UpdateTask();
+            task._task = (TaskDto)taskDataGrid.SelectedItem;
+            task.ShowDialog();
         }
 
         private void DeleteTaskButton_Click(object sender, RoutedEventArgs e)
         {
+            TaskDto task = (TaskDto)taskDataGrid.SelectedItem;
+            try
+            {
+                if (MessageBox.Show($"Вы действительно хотите удалить задачу \"{task.Name}\"?", "Подтверждение удаления", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+                {
+                    new TaskRepository().DeleteTask(task.Id);
+                }
 
+            }
+            catch (Npgsql.PostgresException ex) when (ex.SqlState == "23503")
+            {
+                MessageBox.Show("Данную запись удалить невозможно так как есть связанные с ней записи.");
+            }
+
+            
         }
 
         private void RefreshDataGridButton_Click(object sender, RoutedEventArgs e)
@@ -96,7 +104,7 @@ namespace TaskTrackingApp
             taskDataGrid.ItemsSource = tasks;
         }
 
-        private void GetAllMegeTasks_Click(object sender, RoutedEventArgs e)
+        private void GetAllMergeTasks_Click(object sender, RoutedEventArgs e)
         {
             GetAllMergeTasks getAllMergeTasks = new GetAllMergeTasks();
             getAllMergeTasks.DataChanged += GetAllMergeTasks_DataChanged;
@@ -107,8 +115,7 @@ namespace TaskTrackingApp
         {
             //throw new NotImplementedException();
             List<TaskDto> tasks = e._tasks;
-            taskDataGrid.ItemsSource = tasks;
-            //taskDataGrid.ItemsSource = 
+            taskDataGrid.ItemsSource = tasks;             
         }
 
         private void Timer_tick(object sender, EventArgs e)
@@ -116,5 +123,19 @@ namespace TaskTrackingApp
             timeTextBlock.Text = DateTime.Now.ToString("HH:mm:ss");
             dateTextBlock.Text = DateTime.Now.ToString("dd-MM-yyyy");
         }
+
+        private void UpdateManager_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateManager updateManager = new UpdateManager();
+            updateManager.ShowDialog();
+        }
+
+        private void UpdateStaff_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateStaff updateStaff = new UpdateStaff();
+            updateStaff.ShowDialog();
+        }
+
+        
     }
 }

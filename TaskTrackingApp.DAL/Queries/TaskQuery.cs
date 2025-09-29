@@ -40,5 +40,18 @@ namespace TaskTrackingApp.DAL.Queries
             JOIN public."Staff" AS S ON T."IdStaff"=S."IdStaff"
             WHERE T."IdManager"=@idManager AND T."IdStaff"=@idStaff;
             """;
+
+        public const string DeleteTask =
+            """
+            DELETE FROM public."Tasks"
+            WHERE "IdTasks"=@id;
+            """;
+
+        public const string UpdateTask =
+            """
+            UPDATE public."Tasks"
+            SET "NameTask"=@name, "DescriptionTask"=@description, "OrderStatus"=@status, "IdManager"=@manager, "IdStaff"=@staff, "AssignmentDateTask"=@assignment, "PeriodExecutionTask"=@execution, "CompletionDateTask"=@complete
+            WHERE "IdTasks"=@id;
+            """;
     }
 }

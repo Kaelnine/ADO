@@ -57,5 +57,34 @@ namespace TaskTrackingApp.DAL
                 int s = command.ExecuteNonQuery();
             }
         }
+
+        public void UpdateStaff(StaffDto staff, string name, string post)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(StaffQuery.UpdateStaff, connection);
+                if (name == "")
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@name", staff.Name));
+                }
+                else
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@name", name));
+                }
+                if (post == "")
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@post", staff.Post));
+                }
+                else
+                {
+                    command.Parameters.Add(new NpgsqlParameter("@post", post));
+                }
+                //command.Parameters.Add(new NpgsqlParameter("@name", manager.Name));
+                //command.Parameters.Add(new NpgsqlParameter("@post", manager.Post));
+                command.Parameters.Add(new NpgsqlParameter("@id", staff.Id));
+                int m = command.ExecuteNonQuery();
+            }
+        }
     }
 }

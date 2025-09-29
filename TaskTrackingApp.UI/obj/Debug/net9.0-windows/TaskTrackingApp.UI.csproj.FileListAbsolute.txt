@@ -104,3 +104,9 @@ D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI
 D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\TaskTrackingApp.UI.pdb
 D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\TaskTrackingApp.UI.genruntimeconfig.cache
 D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\ref\TaskTrackingApp.UI.dll
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateManager.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateManager.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateStaff.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateStaff.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateTask.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateTask.baml

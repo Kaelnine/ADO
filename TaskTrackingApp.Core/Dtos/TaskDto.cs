@@ -12,7 +12,7 @@ namespace TaskTrackingApp.Core.Dtos
         public string Name { get; set; }
         public string Description { get; set; }
         public string OrderStatus { get; set; } 
-        //public int IdStatus { get; set; }
+        public int IdStatus { get; set; }
         public string NameManager { get; set; }
         public int IdManager { get; set; }
         public string NameStaff { get; set; }

@@ -20,5 +20,14 @@
     <Compile Update="Windows\GetAllMergeTasks.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\UpdateManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\UpdateStaff.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\UpdateTask.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

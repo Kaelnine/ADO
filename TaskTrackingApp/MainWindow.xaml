@@ -23,8 +23,8 @@
                     <MenuItem Header="_Сотрудника" Name="addStaff" Click="AddStaff_Click" />
                 </MenuItem>
                 <MenuItem Header="_Изменить">
-                    <MenuItem Header="_Руководителя"/>
-                    <MenuItem Header="_Сотрудника"/>
+                    <MenuItem Header="_Руководителя" Name="updateManager" Click="UpdateManager_Click"/>
+                    <MenuItem Header="_Сотрудника" Name="updateStaff" Click="UpdateStaff_Click"/>
                 </MenuItem>
                 <MenuItem Header="_Удалить">
                     <MenuItem Header="_Руководителя" Name="deleteManager" Click="DeleteManager_Click"/>
@@ -56,7 +56,7 @@
         <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
             <Button Content="Список задач сотрудника" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
             <Button Content="Список задач руководителя" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
-            <Button Name="getAllMegeTasks" Content="Список общих задач" Margin="10" HorizontalAlignment="Center" Width="180" Height="20" Click="GetAllMegeTasks_Click"/>
+            <Button Name="getAllMergeTasks" Content="Список общих задач" Margin="10" HorizontalAlignment="Center" Width="180" Height="20" Click="GetAllMergeTasks_Click"/>
         </StackPanel>
         <StatusBar Grid.Row="5" Background="#FFD6D3D3">
             <StackPanel Orientation="Horizontal" Margin="10,0" HorizontalAlignment="Center">

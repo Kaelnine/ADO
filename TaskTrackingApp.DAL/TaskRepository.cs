@@ -100,9 +100,39 @@ namespace TaskTrackingApp.DAL
                     };
 
                     tasks.Add(task);
-                    //MessageBox.Show("");
+                    
                 }
                 return tasks;
+            }
+        }
+
+        public void DeleteTask(int id)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(TaskQuery.DeleteTask, connection);
+                command.Parameters.Add(new NpgsqlParameter("@id", id));
+                int m = command.ExecuteNonQuery();
+            }
+        }
+
+        public void UpdateTask(TaskDto task)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(TaskQuery.UpdateTask, connection);                
+                command.Parameters.Add(new NpgsqlParameter("@name", task.Name));
+                command.Parameters.Add(new NpgsqlParameter("@description", task.Description));
+                command.Parameters.Add(new NpgsqlParameter("@status", task.IdStatus));
+                command.Parameters.Add(new NpgsqlParameter("@manager", task.IdManager));
+                command.Parameters.Add(new NpgsqlParameter("@staff", task.IdStaff));
+                command.Parameters.Add(new NpgsqlParameter("@assignment", task.AssignmentDate));
+                command.Parameters.Add(new NpgsqlParameter("@execution", task.PeriodExecution));
+                command.Parameters.Add(new NpgsqlParameter("@complete", task.CompletionDate));
+                command.Parameters.Add(new NpgsqlParameter("@id", task.Id));
+                int t = command.ExecuteNonQuery();
             }
         }
     }
