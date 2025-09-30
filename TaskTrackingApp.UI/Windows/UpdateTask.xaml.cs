@@ -52,7 +52,7 @@ namespace TaskTrackingApp.UI.Windows
         {
             TaskDto task = new TaskDto();
             task.Id = _task.Id;
-            task.Name = textBlockNameTask.Text;
+            task.Name = nameTask.Text;
             task.Description = descriptionTask.Text;
             var selectedItemStatus = statusTask.SelectedItem as TaskStatusDto;
             if (selectedItemStatus != null)

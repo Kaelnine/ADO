@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.DAL\obj\Debug\net9.0-windows\
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.DAL\obj\Debug\net9.0-windows\
 TaskTrackingApp.DAL
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.DAL\App.xaml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.DAL\App.xaml
 11407045341
 
 14409049690
-204-1095952529
+204-1078554154
 MainWindow.xaml;
 
-False
+True
 

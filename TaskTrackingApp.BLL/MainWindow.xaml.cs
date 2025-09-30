@@ -19,6 +19,8 @@ namespace TaskTrackingApp.BLL
         public MainWindow()
         {
             InitializeComponent();
+            
         }
+
     }
 }

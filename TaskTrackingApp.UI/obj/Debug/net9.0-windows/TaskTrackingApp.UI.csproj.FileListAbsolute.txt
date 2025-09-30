@@ -114,3 +114,13 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksManager.baml
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksStaff.g.cs
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksStaff.baml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksManager.g.cs
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksStaff.g.cs
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateManager.g.cs
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateStaff.g.cs
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateTask.g.cs
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksManager.baml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksStaff.baml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateManager.baml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateStaff.baml
+D:\Моё\Учеба\_Домашние задания\ADO\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateTask.baml
