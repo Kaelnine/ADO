@@ -24,7 +24,7 @@ namespace TaskTrackingApp.DAL.Queries
 
         public const string GetAllTasksForDataGrid =
             """
-            SELECT T."IdTasks", T."NameTask", T."DescriptionTask", TS."NameStatus", M."NameManager", S."NameStaff", T."AssignmentDateTask", T."PeriodExecutionTask", T."CompletionDateTask"
+            SELECT T."IdTasks", T."NameTask", T."DescriptionTask", TS."IdStatus", TS."NameStatus", M."IdManager", M."NameManager", S."IdStaff", S."NameStaff", T."AssignmentDateTask", T."PeriodExecutionTask", T."CompletionDateTask"
             FROM public."Tasks" AS T
             JOIN public."TaskStatus" AS TS ON T."OrderStatus"=TS."OrderStatus"
             JOIN public."Managers" AS M ON T."IdManager"=M."IdManager"

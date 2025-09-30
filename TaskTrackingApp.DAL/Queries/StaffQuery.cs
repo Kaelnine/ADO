@@ -31,11 +31,12 @@ namespace TaskTrackingApp.DAL.Queries
 
         public const string GetAllTasksStaff =
             """
-            SELECT
-            T."IdTasks", T."NameTask", T."DescriptionTask", T."IdStatus", T."IdStaff", T."AssignmentDateTask", T."PeriodExecutionTask", T."CompletionDateTask"
-            FROM public."Staff" AS S
-            JOIN public."Tasks" AS T ON S."IdStaff"=T."IdStaff"
-            WHERE S."IdStaff"=@id;
+            SELECT T."IdTasks", T."NameTask", T."DescriptionTask", TS."NameStatus", M."NameManager", S."NameStaff", T."AssignmentDateTask", T."PeriodExecutionTask", T."CompletionDateTask"
+            FROM public."Tasks" AS T
+            JOIN public."TaskStatus" AS TS ON T."OrderStatus"=TS."OrderStatus"
+            JOIN public."Managers" AS M ON T."IdManager"=M."IdManager"
+            JOIN public."Staff" AS S ON T."IdStaff"=S."IdStaff"
+            WHERE S."IdStaff"=@idStaff;
             """;
 
         public const string GetAllStaff =

@@ -136,6 +136,32 @@ namespace TaskTrackingApp
             updateStaff.ShowDialog();
         }
 
-        
+        private void AllTaskManager_Click(object sender, RoutedEventArgs e)
+        {
+            AllTasksManager allTasksManager = new AllTasksManager();
+            allTasksManager.DataChanged += AllTasksManager_DataChanged;
+            allTasksManager.ShowDialog();
+        }
+
+        private void AllTasksManager_DataChanged(object? sender, AllTasksManager.DataEventArgs e)
+        {
+            //throw new NotImplementedException();
+            List<TaskDto> tasks = e._tasks;
+            taskDataGrid.ItemsSource = tasks;
+        }
+
+        private void AllTaskStaff_Click(object sender, RoutedEventArgs e)
+        {
+            AllTasksStaff allTasksStaff = new AllTasksStaff();
+            allTasksStaff.DataChanged += AllTasksStaff_DataChanged;
+            allTasksStaff.ShowDialog();
+        }
+
+        private void AllTasksStaff_DataChanged(object? sender, AllTasksStaff.DataEventArgs e)
+        {
+            //throw new NotImplementedException();
+            List<TaskDto> tasks = e._tasks;
+            taskDataGrid.ItemsSource = tasks;
+        }
     }
 }

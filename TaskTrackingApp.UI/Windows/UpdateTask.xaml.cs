@@ -29,7 +29,7 @@ namespace TaskTrackingApp.UI.Windows
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
+        {            
             List<ManagerDto> managers = new ManagerRepository().GetAllManagers();
             nameManager.ItemsSource = managers;
             List<StaffDto> staffs = new StaffRepository().GetAllStaff();
@@ -39,11 +39,13 @@ namespace TaskTrackingApp.UI.Windows
             textBlockNameTask.Text = _task.Name;
             nameTask.Text = _task.Name;
             descriptionTask.Text = _task.Description;
-            statusTask.SelectedItem = _task.OrderStatus;
-            nameManager.SelectedItem = _task.NameManager;
-            nameStaff.SelectedItem = _task.NameStaff;
-            periodExecution.DisplayDate = _task.PeriodExecution;
-            completionDate.DisplayDate = _task.CompletionDate;
+            statusTask.Text = _task.OrderStatus;      
+            nameManager.Text = _task.NameManager;
+            nameStaff.Text = _task.NameStaff;
+            string datePeriodExecution = _task.PeriodExecution.ToString("yyyy-MM-dd");
+            periodExecution.SelectedDate = DateTime.Parse(datePeriodExecution);
+            string dateCompletionDate = _task.CompletionDate.ToString("yyyy-MM-dd");
+            completionDate.SelectedDate = DateTime.Parse(dateCompletionDate);
         }
 
         private void UpdateTaskButton_Click(object sender, RoutedEventArgs e)
@@ -52,17 +54,30 @@ namespace TaskTrackingApp.UI.Windows
             task.Id = _task.Id;
             task.Name = textBlockNameTask.Text;
             task.Description = descriptionTask.Text;
-            task.IdStatus = statusTask.SelectedIndex;
-            task.IdManager = nameManager.SelectedIndex;
-            task.IdStaff = nameStaff.SelectedIndex;
+            var selectedItemStatus = statusTask.SelectedItem as TaskStatusDto;
+            if (selectedItemStatus != null)
+            {                
+                task.IdStatus = selectedItemStatus.Id;
+            }            
+            var selectedItemManager = nameManager.SelectedItem as ManagerDto;
+            if (selectedItemManager != null)
+            {
+                task.IdManager = selectedItemManager.Id;
+            }            
+            var selectedItemStaff = nameStaff.SelectedItem as StaffDto;
+            if (selectedItemStaff != null)
+            {
+                task.IdStaff = selectedItemStaff.Id;
+            }            
             task.AssignmentDate = _task.AssignmentDate;            
             task.PeriodExecution = (DateTime)periodExecution.SelectedDate;
             task.CompletionDate = (DateTime)completionDate.SelectedDate;
             new TaskRepository().UpdateTask(task);
+            
             this.Close();
- //           UPDATE public."Tasks"
-	//SET "NameTask"='ghhggj', "DescriptionTask"='hvmvhjvh', "OrderStatus"=2, "IdManager"=1, "IdStaff"=1, "AssignmentDateTask"='2025-01-01', "PeriodExecutionTask"='2025-01-01', "CompletionDateTask"='2025-01-01'
-	//WHERE "IdTasks"=1;
+ 
         }
+
+        
     }
 }

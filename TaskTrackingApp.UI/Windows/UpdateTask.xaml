@@ -29,15 +29,15 @@
         <TextBlock Grid.Row="2" Grid.Column="0" Text="Описание задачи: " HorizontalAlignment="Right" Margin="10" VerticalAlignment="Center"/>
         <TextBox Name="descriptionTask" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Margin="10" Width="300" TextWrapping="Wrap" AcceptsReturn="True" Height="50"/>
         <TextBlock Grid.Row="3" Grid.Column="0" Text="Статус: " HorizontalAlignment="Right" Margin="10"/>
-        <ComboBox Name="statusTask" Grid.Row="3" Grid.Column="1" Margin="10" Width="300" HorizontalAlignment="Left" DisplayMemberPath="Name" SelectedItem="{Binding SelectedItem}"/>
+        <ComboBox Name="statusTask" Grid.Row="3" Grid.Column="1" Margin="10" Width="300" HorizontalAlignment="Left" DisplayMemberPath="Name"/>
         <TextBlock Grid.Row="4" Grid.Column="0" Text="Руководитель: " HorizontalAlignment="Right" Margin="10"/>
         <ComboBox Name="nameManager" Grid.Row="4" Grid.Column="1" Margin="10" Width="300" HorizontalAlignment="Left" DisplayMemberPath="Name"/>
         <TextBlock Grid.Row="5" Grid.Column="0" Text="Сотрудник: " HorizontalAlignment="Right" Margin="10"/>
         <ComboBox Name="nameStaff" Grid.Row="5" Grid.Column="1" Margin="10" Width="300" HorizontalAlignment="Left" DisplayMemberPath="Name"/>
         <TextBlock Grid.Row="6" Grid.Column="0" Text="Срок выполнения: " HorizontalAlignment="Right" Margin="10" VerticalAlignment="Center"/>
-        <DatePicker Name="periodExecution" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" Width="300" Margin="10" SelectedDate="{Binding SelectedDate, StringFormat=yyyy-MM-dd}"/>
+        <DatePicker Name="periodExecution" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left" Width="300" Margin="10"/>
         <TextBlock Grid.Row="7" Grid.Column="0" Text="Дата завершения: " HorizontalAlignment="Right" Margin="10" VerticalAlignment="Center"/>
-        <DatePicker Name="completionDate" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" Width="300" Margin="10" SelectedDate="{Binding SelectedDate, StringFormat=yyyy-MM-dd}"/>
+        <DatePicker Name="completionDate" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" Width="300" Margin="10"/>
         <StackPanel Grid.Row="8" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
             <Button Name="updateTaskButton" Content="Изменить задачу" Width="100" Height="20" Margin="10" Click="UpdateTaskButton_Click"/>
             <Button Name="cancelButton" Content="Отмена" Width="100" Height="20" Margin="10" IsCancel="True"/>

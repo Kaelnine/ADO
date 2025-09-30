@@ -11,6 +11,12 @@
     <Compile Update="Windows\AddTask.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\AllTasksManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\AllTasksStaff.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\DeleteStaff.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

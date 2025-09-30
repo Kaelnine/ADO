@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskTrackingApp.UI.Windows"
         mc:Ignorable="d"
-        Title="Изменение сотрудника" Height="330" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Изменение сотрудника" Height="330" Width="600" Loaded="Window_Loaded" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -14,7 +14,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Text="Выберите сотрудника для изменения" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Margin="10"/>
-        <ComboBox Grid.Row="1" Name="comboBoxNameStaff" Margin="10" DisplayMemberPath="Name"/>
+        <ComboBox Grid.Row="1" Name="comboBoxNameStaff" Margin="10" DisplayMemberPath="Name" Width="300"/>
         <StackPanel Grid.Row="2" Orientation="Vertical" HorizontalAlignment="Center" Margin="10">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
                 <TextBlock Text="Введите новое имя: " HorizontalAlignment="Right" Margin="10"/>

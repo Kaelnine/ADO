@@ -86,5 +86,45 @@ namespace TaskTrackingApp.DAL
                 int m = command.ExecuteNonQuery();
             }
         }
+
+        public List<TaskDto> GetTasksByStaffId(int id)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(Options.ConnectionString))
+            {
+                connection.Open();
+                NpgsqlCommand command = new NpgsqlCommand(StaffQuery.GetAllTasksStaff, connection);
+                command.Parameters.Add(new NpgsqlParameter("@idStaff", id));
+                NpgsqlDataReader reader = command.ExecuteReader();
+
+
+                List<TaskDto> tasks = new List<TaskDto>();
+                //MessageBox.Show("");
+                while (reader.Read())
+                {
+
+                    TaskDto task = new TaskDto()
+                    {
+                        Id = reader.GetInt32(0),
+                        Name = reader.GetString(1),
+                        Description = reader.GetString(2),
+                        OrderStatus = reader.GetString(3),
+                        //IdStatus = reader.GetInt32(3),
+                        NameManager = reader.GetString(4),
+                        //IdManager = reader.GetInt32(4),
+                        NameStaff = reader.GetString(5),
+                        //IdStaff = reader.GetInt32(5),
+                        AssignmentDate = reader.GetDateTime(6),
+                        PeriodExecution = reader.GetDateTime(7),
+                        CompletionDate = reader.GetDateTime(8),
+
+                    };
+
+                    tasks.Add(task);
+
+                }
+                return tasks;
+
+            }
+        }
     }
 }

@@ -4,6 +4,8 @@ FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\MainWind
 FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\AddManager.xaml;;
 FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\AddStaff.xaml;;
 FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\AddTask.xaml;;
+FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\AllTasksManager.xaml;;
+FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\AllTasksStaff.xaml;;
 FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\DeleteManager.xaml;;
 FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\DeleteStaff.xaml;;
 FD:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\Windows\GetAllMergeTasks.xaml;;

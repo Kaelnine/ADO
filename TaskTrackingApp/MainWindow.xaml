@@ -54,8 +54,8 @@
             <Button Name="refreshDataGridButton" Content="Обновить список" Margin="10" HorizontalAlignment="Center" Width="100" Height="20" Click="RefreshDataGridButton_Click"/>            
         </StackPanel>
         <StackPanel Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
-            <Button Content="Список задач сотрудника" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
-            <Button Content="Список задач руководителя" Margin="10" HorizontalAlignment="Center" Width="180" Height="20"/>
+            <Button Name="allTaskManager" Content="Список задач руководителя" Margin="10" HorizontalAlignment="Center" Width="180" Height="20" Click="AllTaskManager_Click"/>
+            <Button Name="allTaskStaff" Content="Список задач сотрудника" Margin="10" HorizontalAlignment="Center" Width="180" Height="20" Click="AllTaskStaff_Click"/>
             <Button Name="getAllMergeTasks" Content="Список общих задач" Margin="10" HorizontalAlignment="Center" Width="180" Height="20" Click="GetAllMergeTasks_Click"/>
         </StackPanel>
         <StatusBar Grid.Row="5" Background="#FFD6D3D3">

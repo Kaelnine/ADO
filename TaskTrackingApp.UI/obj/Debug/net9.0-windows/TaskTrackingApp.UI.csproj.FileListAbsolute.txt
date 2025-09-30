@@ -110,3 +110,7 @@ D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateStaff.baml
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateTask.g.cs
 D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\UpdateTask.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksManager.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksManager.baml
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksStaff.g.cs
+D:\_Учеба\_Домашние задания\ADO\TaskTrackingApp.UI\obj\Debug\net9.0-windows\Windows\AllTasksStaff.baml
