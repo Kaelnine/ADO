@@ -93,7 +93,7 @@ namespace TaskTrackingApp.UI.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TaskTrackingApp.UI;component/windows/updatestaff.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TaskTrackingApp.UI;V1.0.0.0;component/windows/updatestaff.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\UpdateStaff.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
